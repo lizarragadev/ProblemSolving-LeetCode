@@ -5,7 +5,7 @@ import java.io.PrintWriter
 * @autor: lizarragadev
 * */
 
-class Solution{
+class Solution0001{
     fun twoSum(nums: IntArray, target: Int): IntArray? {
         val map = mutableMapOf<Int, Int>()
         for (i in nums.indices) {
@@ -28,5 +28,5 @@ fun PrintWriter.p0001_TwoSum() {
     val n = readInt()
     val nums = readIntArray(n)
     val target = readInt()
-    println(Solution().twoSum(nums, target).contentToString())
+    println(Solution0001().twoSum(nums, target).contentToString())
 }
